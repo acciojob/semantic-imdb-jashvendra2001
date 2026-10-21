@@ -1,16 +1,110 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movie - 3 Idiots</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section, details, aside {
+            background-color: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Header -->
+    <header>
+        <h1>3 Idiots</h1>
+        <p>My Favorite Movie</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
+
+    <!-- Movie Summary -->
+    <details open>
+        <summary>Movie Summary</summary>
+        <p>
+            3 Idiots is a Bollywood comedy-drama movie
+            about three engineering students who
+            experience friendship, challenges, and
+            the pressure of the education system.
+            The movie teaches us to follow our passion
+            instead of blindly chasing success.
+        </p>
+    </details>
+
+    <!-- Actors Section -->
+    <section id="actor">
+        <h2>Actors</h2>
+        <p>Aamir Khan as Rancho</p>
+        <p>R. Madhavan as Farhan Qureshi</p>
+        <p>Sharman Joshi as Raju Rastogi</p>
+        <p>Kareena Kapoor as Pia</p>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <p>
+            "All is well."
+        </p>
+    </section>
+
+    <!-- Movie Information -->
+    <aside>
+        <h2>Movie Information</h2>
+        <p><strong>IMDb Rating:</strong> 8.4/10</p>
+        <p><strong>Release Date:</strong> 25 December 2009</p>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>Produced by: Vidhu Vinod Chopra</p>
+    </footer>
 
 </body>
-
 </html>
